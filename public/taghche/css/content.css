@@ -1,0 +1,201 @@
+.backDrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 120px;
+  z-index: -2;
+  background-color: rgba(0, 0, 0, 0.718);
+  opacity: 0.5;
+  left: 0;
+  display: none;
+}
+#content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#content > #firstPageBanner {
+  display: flex;
+  width: 100%;
+  margin-top: 122px;
+  background-color: #00a2a4;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+#content > #firstPageBanner > #banner {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-flow: row-reverse nowrap;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+}
+#content > #firstPageBanner > #underbanner {
+  display: flex;
+  width: 100%;
+  background-color: #e9e7e7;
+  justify-content: center;
+  flex-flow: row-reverse nowrap;
+  min-height: 152px;
+}
+#content > #firstPageBanner > #banner > #title {
+  width: 471px;
+  margin-left: 20px;
+  text-align: center;
+  color: #e6f6f7;
+}
+#content > #firstPageBanner > #banner > #title > #top {
+  font-size: 32px;
+  margin: auto;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+#content > #firstPageBanner > #banner > #title > #line {
+  height: 1px;
+  width: 100%;
+  background-color: #ccc;
+  margin-bottom: 20px;
+}
+#content > #firstPageBanner > #banner > #title > #bottom {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#content > #firstPageBanner > #banner > #image {
+  max-width: 100%;
+  max-height: 100%;
+}
+#content > #firstPageBanner > #underbanner > div {
+  width: 295px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+#content > #firstPageBanner > #underbanner > div > img {
+  width: 48px;
+  height: 48px;
+  margin: 10px auto;
+}
+#content > #firstPageBanner > #underbanner > div > span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  line-height: 19px;
+}
+#content > #main-content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+  max-width: 1160px;
+  margin: auto;
+  overflow-x: hidden;
+  flex-direction: column;
+}
+#content > #main-content > .big-slider {
+  display: flex;
+  overflow: hidden;
+}
+#content > #main-content > #cat {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-flow: column nowrap;
+  height: 160px;
+  gap: 15px;
+  padding: 0;
+  height: 100px;
+}
+#content > #main-content > #cat > h2 {
+  height: 36px;
+  line-height: 36px;
+  font-size: 18px;
+  height: 20%;
+  margin: 0;
+  padding: 0;
+}
+
+#content > #main-content > #cat > #cat-but {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  height: 80%;
+  overflow: hidden;
+}
+#content > #main-content > #cat > #cat-but > #rightCat {
+  transition: 0.2s;
+  background: url("../images/slider/icons8-right-50.png") no-repeat 50%;
+  background-size: auto;
+  background-size: 51%;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  opacity: 0.5;
+}
+
+#content > #main-content > #cat > #cat-but > #leftCat {
+  transition: 0.2s;
+  background: url("../images/slider/icons8-left-70.png") no-repeat 50%;
+  background-size: auto;
+  background-size: 70%;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  opacity: 0.5;
+}
+#content > #main-content > #cat > #cat-but > #rightCat:hover {
+  opacity: 1;
+}
+
+#content > #main-content > #cat > #cat-but > #leftCat:hover {
+  opacity: 1;
+}
+#content > #main-content > #cat > #cat-but > #catButGal {
+  width: 150%;
+  display: flex;
+  flex-flow: row nowrap;
+  position: absolute;
+  align-items: center;
+  gap: 16px;
+  right: 0;
+  transition: 0.5s;
+}
+#content > #main-content > #cat > #cat-but > #catButGal > div {
+  padding: 7px 12px 7px 10px;
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  align-items: center;
+  color: #00a2a4;
+  font-size: 13px;
+}
+#content > #main-content > #cat > #cat-but > #catButGal > div > span {
+  background: url(./images/icons8-left-18.png) no-repeat;
+  width: 18px;
+  height: 18px;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+
+#content > #main-content > div {
+  padding: 7px 0px 0px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+z

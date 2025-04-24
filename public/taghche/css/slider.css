@@ -1,0 +1,109 @@
+#content > #main-content > .slider-title {
+  display: flex;
+  text-align: right;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: start;
+  margin-top: 16px;
+}
+#content > #main-content > .slider-title > h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 34px;
+}
+#content > #main-content > .slider-title > p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #666;
+  padding: 0;
+  margin: 0;
+}
+
+#content > #main-content > .slider {
+  display: flex;
+  height: 380px;
+}
+
+#content > #main-content > .big-slider > .big-slider-show {
+  height: 300px;
+  position: relative;
+}
+
+#content > #main-content > .big-slider > .big-slider-show > .big-gal {
+  width: 180%;
+  height: 100%;
+  transition: 0.5s;
+  position: relative;
+  right: 0%;
+  padding-right: 10px;
+}
+
+#content > #main-content > .big-slider > .big-slider-show > .big-gal > .items {
+  height: 100%;
+  float: right;
+  width: 24%;
+  padding-left: 12px;
+}
+
+#content
+  > #main-content
+  > .big-slider
+  > .big-slider-show
+  > .big-gal
+  > .items
+  > img {
+  width: 100%;
+  height: 280.125px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 20px;
+  transition: box-shadow 0.3s ease;
+}
+
+#content > #main-content > .big-slider > .big-slider-show > .right {
+  transition: 0.2s;
+  background: url("../images/slider/right.png") no-repeat 50%;
+  background-size: 70%;
+  width: 50px;
+  height: 70px;
+  cursor: pointer;
+  position: absolute;
+  top: 100px;
+  right: 0;
+}
+
+#content > #main-content > .big-slider > .big-slider-show > .left {
+  transition: 0.2s;
+  background: url("../images/slider/left.png") no-repeat 50%;
+  background-size: 70%;
+  width: 50px;
+  height: 70px;
+  cursor: pointer;
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+
+#content > #main-content > .big-slider > .big-slider-show > #but {
+  height: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -45px;
+}
+#content > #main-content > .big-slider > .big-slider-show > #but > li {
+  width: 12px;
+  height: 12px;
+  border-radius: 100px;
+  background: white;
+  transition: width 0.3s, background 2s;
+}
+#content > #main-content > .big-slider > .big-slider-show > #but > li:hover {
+  width: 30px;
+  background: red;
+}

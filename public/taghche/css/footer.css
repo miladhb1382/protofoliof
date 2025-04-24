@@ -1,0 +1,108 @@
+#footer {
+  display: flex;
+  flex-direction: column;
+  max-width: 1160px;
+  margin: auto;
+  margin-top: 10px;
+  gap: 10px;
+}
+#footer > #top {
+  display: flex;
+  flex-flow: row-reverse;
+  padding: auto;
+  margin-top: auto;
+  margin-top: 10px;
+  justify-content: space-evenly;
+  gap: 60px;
+  border-bottom: 1px solid #ccc;
+}
+#footer > #top > #download-button {
+  display: flex;
+  flex-flow: column;
+}
+#footer > #top > #download-button > div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#footer > #top > #download-button > div > div {
+  width: 153px;
+}
+
+#footer > #top > #download-button > div > div > img {
+  width: 100%;
+}
+#footer > #center {
+  display: flex;
+  width: 100%;
+  display: grid;
+  border-bottom: 1px solid #ccc;
+  grid-template-columns: 2fr 4fr;
+  gap: 40px;
+  padding-bottom: 10px;
+}
+#footer > #center > #shortlinks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#footer > #center > #shortlinks > .shortlink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  gap: 8px;
+}
+#footer > #center > #shortlinks > .shortlink > span {
+  width: 100%;
+  text-align: right;
+  cursor: pointer;
+  transition: 0.1s;
+  font-size: 14px;
+  line-height: 20px;
+}
+#footer > #center > #shortlinks > .shortlink > span:hover {
+  color: #00a2a4;
+}
+#footer > #center > #shortlinks > .shortlink > h5 {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 12px;
+  text-align: start;
+  margin: 8px 0 4px 0;
+}
+#footer > #bottom {
+  display: flex;
+  width: 100%;
+  flex-flow: column nowrap;
+}
+#footer > #bottom > #contact-button {
+  float: left;
+  margin-top: 10px;
+  padding: 0 50px;
+}
+#footer > #bottom > #contact-button > span {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: auto 0;
+}
+#footer > #bottom > #footer-links {
+  width: 100%;
+  padding-right: 50px;
+  margin-bottom: 10px;
+}
+
+#footer > #bottom > #footer-links > span {
+  padding: 0 5px;
+  color: #00a2a4;
+  cursor: pointer;
+  float: right;
+  transition: 0.1s;
+  font-size: 14px;
+}
+#footer > #bottom > #footer-links > span:hover {
+  color: #212121;
+}

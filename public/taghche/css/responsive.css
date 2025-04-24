@@ -1,0 +1,282 @@
+@media screen and (max-width: 1280px) {
+  #content > #main-content {
+    max-width: 960px;
+  }
+  #footer {
+    max-width: 960px;
+  }
+  #footer > #bottom > #footer-links {
+    padding-right: 0px;
+  }
+  #content
+    > #main-content
+    > .big-slider
+    > .big-slider-show
+    > .big-gal
+    > .items
+    > img {
+    height: 216px;
+  }
+  #content > #main-content > .big-slider > .big-slider-show {
+    height: auto;
+  }
+  #content > #main-content > .big-slider > .big-slider-show > .right {
+    top: 76px;
+  }
+  #content > #main-content > .big-slider > .big-slider-show > .left {
+    top: 76px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #header
+    > #header-bottom
+    > div
+    > #bottom-content
+    > .menubar
+    > div
+    > div
+    > .modal
+    > .scroll-hover-menubar
+    > .scroll-hover-menubar-gal
+    > .drop-hover-menu
+    > li {
+    font-size: 10px;
+  }
+  #content > #main-content {
+    max-width: 769px;
+  }
+  #header > #header-top > #header-content {
+    width: 760px;
+  }
+  #header > #header-top > #header-content > #right-box > #search > input {
+    width: 380px;
+  }
+  #header > #header-bottom {
+    width: 760px;
+    margin: auto;
+  }
+  #content > #main-content > #cat > #cat-but > #catButGal > div {
+    padding: 3px 6px 3px 5px;
+    border: 1px solid #e2e2e2;
+    font-size: 10px;
+    white-space: nowrap;
+  }
+  #content > #main-content > #cat > h2 {
+    font-size: 12px;
+  }
+  #content > #firstPageBanner > #underbanner > div > span {
+    font-size: 12px;
+  }
+  #footer {
+    max-width: 769px;
+  }
+  #footer > #top > #download-button > h2 {
+    text-align: center;
+  }
+  #footer > #center > div > #me {
+    text-align: center !important;
+  }
+  #footer > #center > div:first-child {
+    border-bottom: 1px solid #ccc;
+  }
+  #footer > #center {
+    grid-template-columns: none;
+    grid-template-rows: 0.5fr 2fr;
+    padding-bottom: 10px;
+  }
+  #footer > #center > #shortlinks {
+    grid-template-columns: auto auto;
+    padding-bottom: 10px;
+    gap: 10px;
+  }
+  #footer > #center > #shortlinks > .shortlink > span,
+  #footer > #center > #shortlinks > .shortlink > h5 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  #content > #main-content > .slider > .slidermini > .galmini > .items {
+    height: 300px;
+    width: 130px;
+  }
+  #content
+    > #main-content
+    > .slider
+    > .slidermini
+    > .galmini
+    > .items
+    > div
+    > .price {
+    font-size: 12px;
+  }
+  #content
+    > #main-content
+    > .slider
+    > .slidermini
+    > .galmini
+    > .items
+    > div
+    > .off {
+    font-size: 12px;
+  }
+  #content > #main-content > .slider-title > h2 {
+    font-size: 12px;
+    line-height: 26px;
+  }
+  #content > #main-content > .slider-title > p {
+    font-size: 12px;
+    line-height: 26px;
+  }
+  #content > #main-content > .big-slider > .big-slider-show > .big-gal {
+    width: 400%;
+  }
+  #content
+    > #main-content
+    > .big-slider
+    > .big-slider-show
+    > .big-gal
+    > .items {
+    width: 20.5%;
+  }
+  #content > #main-content > .slider > .slidermini > .galmini {
+    width: 800%;
+  }
+  #content
+    > #main-content
+    > .big-slider
+    > .big-slider-show
+    > .big-gal
+    > .items
+    > img {
+    height: 173.25px;
+  }
+  #content > #main-content > .big-slider > .big-slider-show > .right {
+    top: 55px;
+  }
+  #content > #main-content > .big-slider > .big-slider-show > .left {
+    top: 55px;
+  }
+  #content
+    > #main-content
+    > .slider
+    > .slidermini
+    > .galmini
+    > .items
+    > div
+    > div
+    > h2 {
+    font-size: 14px;
+  }
+  #content > #firstPageBanner {
+    margin-top: 40px;
+  }
+  #content > #firstPageBanner > #banner > #title > #line {
+    margin-bottom: 10px;
+  }
+  #content > #main-content {
+    max-width: 568px;
+  }
+
+  #header > #header-top > #header-content {
+    max-width: 568px;
+  }
+  #header > #header-top > #header-content > #right-box > #search {
+    flex-grow: 1;
+  }
+  #header > #header-top > #header-content > #right-box > #search > input {
+    width: 100%;
+    flex-grow: 1;
+  }
+  #content > #firstPageBanner > #banner > #title {
+    width: 250px;
+    max-width: none;
+  }
+  #content > #firstPageBanner > #banner > #title > #top {
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #content > #firstPageBanner > #underbanner > div > span {
+    font-size: 11px;
+  }
+  #content > #firstPageBanner > #banner > #title > #bottom {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  #header > #header-top > #header-content > #right-box {
+    width: 100%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+  }
+  #header > #header-top > #header-content > #button-login {
+    display: none;
+  }
+  #header > #header-bottom {
+    display: none;
+  }
+  #header > #header-top > #header-content > #right-box > #logo > #hamberger {
+    display: flex;
+  }
+  #header > #header-top > #header-content > #right-box > #logo > #logo-img {
+    width: 100px;
+    height: 30px;
+  }
+  #footer {
+    max-width: 568px;
+  }
+  #footer > #top {
+    flex-flow: column-reverse;
+    justify-content: center;
+  }
+  #footer > #top > img {
+    margin: auto;
+  }
+  #footer > #bottom > #contact-button {
+    display: flex;
+    flex-flow: column-reverse;
+    justify-content: center;
+  }
+  #footer > #bottom > #contact-button > #contact {
+    display: flex;
+    justify-content: center;
+  }
+  #footer > #bottom > #contact-button > #copy {
+    display: flex;
+    justify-content: center;
+  }
+  #footer > #bottom > #footer-links {
+    display: flex;
+    justify-content: center;
+  }
+  #footer > #bottom > #footer-links > span {
+    font-size: 8px;
+  }
+}
+@media (max-width: 576px) {
+  #content > #main-content {
+    max-width: 540px;
+  }
+  #content > #main-content > .slider > .slidermini > .galmini > .items {
+    height: 250px;
+    width: 100px;
+  }
+  #content > #main-content {
+    gap: 4px;
+  }
+  #content > #main-content > .slider {
+    display: flex;
+    height: auto;
+  }
+}
+@media (max-width: 540px) {
+  #content > #main-content {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  #content > #main-content > .slider-title > h2 {
+    padding-right: 10px;
+  }
+}

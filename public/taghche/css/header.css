@@ -1,0 +1,511 @@
+* {
+  scrollbar-color: #5dc5c0 #d3d3d3;
+  scrollbar-width: thin;
+  scrollbar-color: #5dc5c0 #d3d3d3;
+  scrollbar-width: thin;
+}
+
+body {
+  margin: 0;
+  direction: rtl;
+  padding: 0;
+}
+#header {
+  display: none;
+  border: 1px solid #ccc;
+  box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.25);
+  padding: 16px 32px 5px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: white;
+  transition: 0.3s ease;
+  height: fit-content;
+  margin: 0;
+}
+#header > #header-top {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  width: 100%;
+}
+
+#header > #header-top > #header-content > #right-box > #logo {
+  font-family: inherit;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header > #header-top > #header-content > #right-box > #logo #hamberger {
+  display: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background: url("../images/icons8-category-24.png") no-repeat 50%;
+}
+#header > #header-top > #header-content > #right-box > #logo > #logoimg {
+  float: right;
+  object-fit: cover;
+  width: 135px;
+  height: 100%;
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+#header > #header-top > #header-content > #right-box > #logo > #logoimg:hover {
+  filter: grayscale(100%);
+}
+#header > #header-top > #header-content {
+  display: flex;
+  width: 1160px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 32px;
+}
+#header > #header-top > #header-content > #right-box {
+  display: flex;
+  gap: 20px;
+}
+
+#header > #header-top > #header-content > #button-login {
+  background-color: #e9e9ea;
+  font-size: 11px;
+  width: fit-content;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: margin-top 0.3s ease;
+  text-wrap: nowrap;
+}
+#header > #header-top > #header-content > #right-box > #search {
+  background-color: #f5f5f5;
+  padding: 4px 40px;
+  border-radius: 36px;
+  font-family: iranyekan;
+  position: relative;
+  height: 32px;
+}
+#header > #header-top > #header-content > #right-box > #search > input {
+  background-color: #f5f5f5;
+  border: none;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 42px;
+  width: 600px;
+  position: relative;
+  height: 100%;
+  outline: none;
+}
+#header > #header-top > #header-content > #right-box > #search > #searchicon {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  width: 24px;
+  height: 100%;
+  background: url("/images/icons8-search-24.png") no-repeat 50%;
+  cursor: pointer;
+}
+#header > #header-bottom {
+  display: flex;
+  justify-content: center;
+
+  padding-top: 10px;
+}
+#header > #header-bottom > div > #bottom-content > .menubar {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 20px;
+}
+#header > #header-bottom > div > #bottom-content > .menubar > div {
+  font-size: 15px;
+  line-height: 31px;
+  padding: 8px 16px;
+  text-align: center;
+  transition: all 0.1s linear;
+  display: flex;
+  align-items: center;
+}
+#header > #header-bottom > div > #bottom-content > .menubar > div > div {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+#header
+  > #header-bottom
+  > div
+  > #bottom-content
+  > .menubar
+  > div
+  > div
+  > .modal {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: white;
+  width: 100%;
+  height: 600px;
+  z-index: 12;
+  scrollbar-color: #5dc5c0 #d3d3d3;
+  scrollbar-width: thin;
+  scrollbar-color: #5dc5c0 #d3d3d3;
+  scrollbar-width: thin;
+}
+#header
+  > #header-bottom
+  > div
+  > #bottom-content
+  > .menubar
+  > div
+  > div
+  > .modal
+  > .scroll-hover-menubar {
+  text-align: center;
+  width: 30%;
+  overflow: scroll;
+  direction: ltr;
+  scroll-margin-right: 0;
+  scrollbar-color: #5dc5c0 #d3d3d3;
+  scrollbar-width: thin;
+}
+#header
+  > #header-bottom
+  > div
+  > #bottom-content
+  > .menubar
+  > div
+  > div
+  > .modal
+  > .scroll-hover-menubar
+  > .scroll-hover-menubar-gal {
+  display: flex;
+  width: 100%;
+}
+#header
+  > #header-bottom
+  > div
+  > #bottom-content
+  > .menubar
+  > div
+  > div
+  > .modal
+  > .scroll-hover-menubar
+  > .scroll-hover-menubar-gal
+  > .drop-hover-menu {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  list-style: none;
+  flex-flow: column nowrap;
+  text-align: right;
+  padding: 0 16px;
+}
+#header
+  > #header-bottom
+  > div
+  > #bottom-content
+  > .menubar
+  > div
+  > div
+  > .modal
+  > .scroll-hover-menubar
+  > .scroll-hover-menubar-gal
+  > .drop-hover-menu
+  > li {
+  padding: 16px 12px;
+  border-bottom: 1px solid #e9e9ea;
+  align-items: center;
+  align-content: center;
+  font-size: 12px;
+}
+#header
+  > #header-bottom
+  > div
+  > #bottom-content
+  > .menubar
+  > div
+  > div
+  > .modal
+  > .scroll-hover-menubar
+  > .scroll-hover-menubar-gal
+  > .drop-hover-menu
+  > li:hover {
+  background-color: #e6f6f7;
+}
+#header > #header-bottom > div > #bottom-content > .menubar > div:hover > div {
+  display: flex;
+}
+#header
+  > #header-bottom
+  > div
+  > #bottom-content
+  > .menubar
+  > div
+  > div
+  > .modal
+  > .window-hover-menu {
+  text-align: center;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 90%;
+  padding: 30px;
+}
+#header
+  > #header-bottom
+  > div
+  > #bottom-content
+  > .menubar
+  > div
+  > div
+  > .modal
+  > .window-hover-menu
+  ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 20px;
+}
+#header
+  > #header-bottom
+  > div
+  > #bottom-content
+  > .menubar
+  > div
+  > div
+  > .modal
+  > .window-hover-menu
+  h2 {
+  text-align: right;
+  font-size: 16px;
+  color: #00a2a4;
+}
+#header
+  > #header-bottom
+  > div
+  > #bottom-content
+  > .menubar
+  > div
+  > div
+  > .modal
+  > .window-hover-menu
+  ul
+  li {
+  padding: 8px 0px;
+  margin-left: 16px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 1;
+  transition: 0.1s;
+  cursor: pointer;
+  text-align: right;
+}
+#header
+  > #header-bottom
+  > div
+  > #bottom-content
+  > .menubar
+  > div
+  > div
+  > .modal
+  > .window-hover-menu
+  ul
+  li:hover {
+  color: #5dc5c0;
+}
+#header
+  > #header-bottom
+  > div
+  > #bottom-content
+  > .menubar
+  > div
+  > div
+  > .modal
+  > .window-hover-menu {
+  text-align: center;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+#header > #header-bottom > div > #bottom-content > .menubar > div:hover {
+  background: #e6f6f7;
+}
+#header > #header-bottom > div > #bottom-content > .menubar > div > #headphone {
+  width: 24px;
+  height: 100%;
+  background: url("../images/icons8-headphones-24.png") no-repeat 50%;
+  cursor: pointer;
+  margin-left: 10px;
+}
+#header > #header-bottom > div > #bottom-content > .menubar > div > #infinity {
+  width: 24px;
+  height: 100%;
+  background: url("../images/icons8-infinity-24.png") no-repeat 50%;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#header > #header-bottom > div > #bottom-content > .menubar > div > #cat {
+  width: 24px;
+  height: 24px;
+  background: url("../images/icons8-category-24.png") no-repeat 50%;
+  cursor: pointer;
+  margin-left: 10px;
+}
+#header
+  > #header-bottom
+  > div
+  > #bottom-content
+  > .menubar
+  > div
+  > div
+  > .modal
+  > .scroll-hover-menubar
+  > .scroll-hover-menubar-gal
+  > .drop-hover-menu
+  > li
+  > .icon {
+  float: right;
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+  margin-top: 3px;
+}
+#header
+  > #header-bottom
+  > div
+  > #bottom-content
+  > .menubar
+  > div
+  > div
+  > .modal
+  > .scroll-hover-menubar
+  > .scroll-hover-menubar-gal
+  > .drop-hover-menu
+  > li
+  > .left-icon {
+  float: left;
+  background: url("../images/icons8-left-18.png") no-repeat;
+  width: 18px;
+  height: 18px;
+  margin-top: 7px;
+}
+#header > #hamberger-menu > #rightSide {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  height: 100%;
+  z-index: 100;
+  transition: 0.3s;
+  width: 300px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 4px 8px;
+  padding-bottom: 0px;
+  height: 100dvh;
+}
+#header > #hamberger-menu > #shadowSide {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  top: 0;
+  left: -100%;
+  height: 100%;
+  z-index: 90;
+  transition: 0.3s;
+}
+#header > #hamberger-menu > #rightSide > div > #logoham > #logo-img-ham {
+  width: 150px;
+  object-fit: cover;
+  height: 32px;
+}
+#header > #hamberger-menu > #rightSide > div > #logoham {
+  width: 150px;
+}
+#header > #hamberger-menu > #rightSide > div > #loginham {
+  margin-right: auto;
+  height: 32px;
+  width: 80px;
+  background-color: #00a2a4;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 18px;
+}
+#header > #hamberger-menu > #rightSide > .menubarham > .itemham {
+  padding: 16px 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#header > #hamberger-menu > #rightSide > .menubarham > .itemham > .icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  margin-left: 10px;
+  float: right;
+}
+#header > #hamberger-menu > #rightSide > .menubarham > .itemham > #cat {
+  background: url("../images/icons8-category-24.png") no-repeat 50%;
+}
+#header > #hamberger-menu > #rightSide > .menubarham > .itemham > #headphone {
+  background: url("../images/icons8-headphones-24.png") no-repeat 50%;
+}
+#header > #hamberger-menu > #rightSide > .menubarham > .itemham > #infinity {
+  background: url("../images/icons8-infinity-24.png") no-repeat 50%;
+}
+#header > #togmod {
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  left: 25px;
+  cursor: pointer;
+  bottom: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #ccc;
+  transition: 0.1s;
+}
+#header > #togmod > #moon {
+  width: 30px;
+  height: 30px;
+  background: url("../images/icons8-moon-symbol-22.png") no-repeat 50%;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.1s;
+}
+#header > #togmod > #sun {
+  width: 30px;
+  height: 30px;
+  background: url("../images/icons8-sun-22.png") no-repeat 50%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.1s;
+}
+zz

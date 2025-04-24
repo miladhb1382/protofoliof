@@ -1,0 +1,175 @@
+#content > #main-content > .slider > .slidermini {
+  position: relative;
+  overflow: hidden;
+  /* direction: ltr; */
+}
+
+#content > #main-content > .slider > .slidermini > .galmini {
+  width: 540%;
+  height: 100%;
+  transition: 0.5s;
+  position: relative;
+  right: 0%;
+}
+
+#content > #main-content > .slider > .slidermini > .galmini > .items {
+  height: 332px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  border: 1px solid #eee;
+  text-align: center;
+  direction: rtl;
+  position: relative;
+  border-radius: 5px;
+  margin: 0 8px;
+  padding: 8px 12px;
+  width: 150px;
+}
+
+#content > #main-content > .slider > .slidermini > .galmini > .items > img {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+#content > #main-content > .slider > .slidermini > .galmini > .items > div {
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+  justify-content: space-between;
+}
+#content
+  > #main-content
+  > .slider
+  > .slidermini
+  > .galmini
+  > .items
+  > div
+  > div
+  > h2 {
+  color: #212121;
+  font-weight: 700;
+  display: -webkit-box;
+  white-space: normal;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  font-size: 19px;
+  text-align: right;
+  line-height: 20px;
+}
+#content
+  > #main-content
+  > .slider
+  > .slidermini
+  > .galmini
+  > .items
+  > div
+  > div {
+  height: 120px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+#content
+  > #main-content
+  > .slider
+  > .slidermini
+  > .galmini
+  > .items
+  > div
+  > div
+  > span {
+  color: #212121;
+  font-weight: 700;
+  display: -webkit-box;
+  white-space: normal;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  font-size: 19px;
+  text-align: right;
+  line-height: 20px;
+  display: -webkit-box;
+  white-space: normal;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 20px;
+  color: #666;
+  font-weight: 400;
+}
+#content
+  > #main-content
+  > .slider
+  > .slidermini
+  > .galmini
+  > .items
+  > div
+  > .price {
+  display: flex;
+  width: 100%;
+  flex-flow: row-reverse nowrap;
+}
+#content
+  > #main-content
+  > .slider
+  > .slidermini
+  > .galmini
+  > .items
+  > div
+  > .off {
+  color: #fff;
+  padding: 10px;
+  position: absolute;
+  top: -2px;
+  left: 6px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  opacity: 0.9;
+  border: 3px solid white;
+  background-color: red;
+  border-radius: 10% 10% 80% 80%;
+  font-size: 18px;
+  font-weight: bold;
+}
+#content > #main-content > .slider > .slidermini > .rightmini {
+  transition: 0.2s;
+  background: url("../images/slider/icons8-right-30.png") no-repeat 50%;
+  background-size: 70%;
+  width: 50px;
+  height: 70px;
+  cursor: pointer;
+  position: absolute;
+  top: 122px;
+  border-radius: 20px 0 0 20px;
+  right: 0;
+  transition: 0.1s;
+}
+
+#content > #main-content > .slider > .slidermini > .rightmini:hover {
+  background-color: #fff;
+}
+#content > #main-content > .slider > .slidermini > .leftmini {
+  transition: 0.2s;
+  background: url("../images/slider/icons8-left-30.png") no-repeat 50%;
+  background-size: 70%;
+  width: 50px;
+  height: 70px;
+  cursor: pointer;
+  position: absolute;
+  top: 122px;
+  border-radius: 0 20px 20px 0;
+  left: 0;
+}
+#content > #main-content > .slider > .slidermini > .leftmini:hover {
+  background-color: #fff;
+}
