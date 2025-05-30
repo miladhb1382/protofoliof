@@ -16,7 +16,7 @@ const projects = [
     description:
       'LandingPage of Taghche Website Contain full Responsive With DarkMode',
     stack: [{ name: 'Html' }, { name: 'Css' }, { name: 'JavaScript' }],
-    image: '/first.jpg',
+    image: '/taghche.jpg',
     live: '/taghche/index.html',
   },
   {
@@ -26,8 +26,8 @@ const projects = [
     description:
       '3D Android Phone With JavaScript Develop All Features and camera with 123456 PassWord.',
     stack: [{ name: 'Html 5' }, { name: 'Css 3' }, { name: 'JavaScript' }],
-    image: '/first.jpg',
-    live: '/android/index.html',
+    image: '/phone.png',
+    live: '',
   },
   {
     num: '03',
@@ -36,8 +36,8 @@ const projects = [
     description:
       'Jungle Squade Game  Develoap and create Game Engine with Java Script .',
     stack: [{ name: 'Html 5' }, { name: 'Css 3' }, { name: 'JavaScript' }],
-    image: '/secend.jpg',
-    live: '/Jungle squad/game.htm',
+    image: '/jungle.png',
+    live: '',
   },
   {
     num: '04',
@@ -46,8 +46,8 @@ const projects = [
     description:
       'Bad Neiber Game  Develoap and create Game Engine with Java Script .',
     stack: [{ name: 'Html 5' }, { name: 'Css 3' }, { name: 'JavaScript' }],
-    image: '/first.jpg',
-    live: '/NB/01.htm',
+    image: '/nb.png',
+    live: '',
   },
   {
     num: '05',
@@ -56,8 +56,8 @@ const projects = [
     description:
       'LandingPage of Taghche Website Contain full Responsive With DarkMode',
     stack: [{ name: 'Html 5' }, { name: 'Css 3' }, { name: 'JavaScript' }],
-    image: '/first.jpg',
-    live: '/digiStyle/index.html',
+    image: '/digi.png',
+    live: '',
   },
   {
     num: '06',
@@ -67,7 +67,7 @@ const projects = [
       'LandingPage of Taghche Website Contain full Responsive With DarkMode',
     stack: [{ name: 'Html 5' }, { name: 'Css 3' }, { name: 'JavaScript' }],
     image: '/first.jpg',
-    live: 'C:\Users\milad\Desktop\projects\react\portofolio\ProductTask',
+    live: '',
   },
 ];
 function Work() {
