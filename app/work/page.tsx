@@ -1,73 +1,73 @@
-'use client';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { motion } from 'framer-motion';
-import { useState } from 'react';
-import Link from 'next/link';
-import { Button } from '@/components/ui/button';
-import { FaGithub } from 'react-icons/fa';
-import Image from 'next/image';
-import 'swiper/css';
-import WorkSliderButton from '@/components/WorkSliderButton';
+"use client";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { motion } from "framer-motion";
+import { useState } from "react";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { FaGithub } from "react-icons/fa";
+import Image from "next/image";
+import "swiper/css";
+import WorkSliderButton from "@/components/WorkSliderButton";
 const projects = [
   {
-    num: '01',
-    category: 'frontend',
-    title: 'Taghche Website',
+    num: "01",
+    category: "frontend",
+    title: "Taghche Website",
     description:
-      'LandingPage of Taghche Website Contain full Responsive With DarkMode',
-    stack: [{ name: 'Html' }, { name: 'Css' }, { name: 'JavaScript' }],
-    image: '/taghche.jpg',
-    live: '/taghche/index.html',
+      "LandingPage of Taghche Website Contain full Responsive With DarkMode",
+    stack: [{ name: "Html" }, { name: "Css" }, { name: "JavaScript" }],
+    image: "/taghche.jpg",
+    live: "/taghche/index.html",
   },
   {
-    num: '02',
-    category: 'frontend',
-    title: 'Android 3D Model',
+    num: "02",
+    category: "frontend",
+    title: "Android 3D Model",
     description:
-      '3D Android Phone With JavaScript Develop All Features and camera with 123456 PassWord.',
-    stack: [{ name: 'Html 5' }, { name: 'Css 3' }, { name: 'JavaScript' }],
-    image: '/phone.png',
-    live: '',
+      "3D Android Phone With JavaScript Develop All Features and camera with 123456 PassWord.",
+    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "JavaScript" }],
+    image: "/phone.png",
+    live: "",
   },
   {
-    num: '03',
-    category: 'frontend',
-    title: 'Jungle Squad Game',
+    num: "03",
+    category: "frontend",
+    title: "Jungle Squad Game",
     description:
-      'Jungle Squade Game  Develoap and create Game Engine with Java Script .',
-    stack: [{ name: 'Html 5' }, { name: 'Css 3' }, { name: 'JavaScript' }],
-    image: '/jungle.png',
-    live: '',
+      "Jungle Squade Game  Develoap and create Game Engine with Java Script .",
+    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "JavaScript" }],
+    image: "/jungl.png",
+    live: "",
   },
   {
-    num: '04',
-    category: 'frontend',
-    title: 'Bad Neiber Game',
+    num: "04",
+    category: "frontend",
+    title: "Bad Neiber Game",
     description:
-      'Bad Neiber Game  Develoap and create Game Engine with Java Script .',
-    stack: [{ name: 'Html 5' }, { name: 'Css 3' }, { name: 'JavaScript' }],
-    image: '/nb.png',
-    live: '',
+      "Bad Neiber Game  Develoap and create Game Engine with Java Script .",
+    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "JavaScript" }],
+    image: "/nb.png",
+    live: "",
   },
   {
-    num: '05',
-    category: 'frontend',
-    title: 'Digi Style Website',
+    num: "05",
+    category: "frontend",
+    title: "Digi Style Website",
     description:
-      'LandingPage of Taghche Website Contain full Responsive With DarkMode',
-    stack: [{ name: 'Html 5' }, { name: 'Css 3' }, { name: 'JavaScript' }],
-    image: '/digi.png',
-    live: '',
+      "LandingPage of Taghche Website Contain full Responsive With DarkMode",
+    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "JavaScript" }],
+    image: "/digi.png",
+    live: "",
   },
   {
-    num: '06',
-    category: 'frontend',
-    title: 'Digi Style Website',
+    num: "06",
+    category: "frontend",
+    title: "Digi Style Website",
     description:
-      'LandingPage of Taghche Website Contain full Responsive With DarkMode',
-    stack: [{ name: 'Html 5' }, { name: 'Css 3' }, { name: 'JavaScript' }],
-    image: '/first.jpg',
-    live: '',
+      "LandingPage of Taghche Website Contain full Responsive With DarkMode",
+    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "JavaScript" }],
+    image: "/digi.jpg",
+    live: "",
   },
 ];
 function Work() {
@@ -81,7 +81,7 @@ function Work() {
       initial={{ opacity: 0 }}
       animate={{
         opacity: 1,
-        transition: { delay: 2.4, duration: 0.4, ease: 'easeIn' },
+        transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
       }}
       className="flex min-h-[80vh] flex-col justify-center py-12 xl:px-0"
     >
@@ -97,21 +97,21 @@ function Work() {
               </h2>
               <p className="text-white/60">{project.description}</p>
               <ul className="flex flex-col">
-                {' '}
+                {" "}
                 <div className="flex flex-wrap gap-4">
-                  {' '}
+                  {" "}
                   {project.stack.map((item, index) => {
                     return (
                       <li key={index} className="text-accent text-xl">
                         {item.name}
-                        {index !== project.stack.length - 1 && ','}
+                        {index !== project.stack.length - 1 && ","}
                       </li>
                     );
                   })}
                 </div>
                 <div className="flex gap-4">
                   <Link href={project.live} className="my-2">
-                    {' '}
+                    {" "}
                     <Button className="bg-primary text-accent border-accent hover:bg-accent hover:text-primary border">
                       Live
                     </Button>
