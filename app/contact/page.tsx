@@ -18,17 +18,17 @@ function Contact() {
     {
       icon: <FaPhoneAlt />,
       title: "Phone",
-      description: "(+98)919 686 9103",
+      description: "...",
     },
     {
       icon: <FaEnvelope />,
       title: "Email",
-      description: "Milad.h.b1382@gmailc.com",
+      description: "...",
     },
     {
       icon: <FaInstagram />,
       title: "Instagram",
-      description: "Milad.h.b2",
+      description: "...",
     },
   ];
   return (
