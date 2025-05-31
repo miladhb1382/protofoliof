@@ -18,17 +18,17 @@ function Contact() {
     {
       icon: <FaPhoneAlt />,
       title: "Phone",
-      description: "",
+      description: "---------------",
     },
     {
       icon: <FaEnvelope />,
       title: "Email",
-      description: "",
+      description: "---------------",
     },
     {
       icon: <FaInstagram />,
       title: "Instagram",
-      description: "",
+      description: "---------------",
     },
   ];
   return (
