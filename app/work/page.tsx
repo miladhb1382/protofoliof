@@ -22,15 +22,52 @@ const projects = [
   {
     num: "02",
     category: "frontend",
-    title: "Android 3D Model",
+    title: "Accademy Bahr Website",
     description:
-      "3D Android Phone With JavaScript Develop All Features and camera with 123456 PassWord.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "JavaScript" }],
-    image: "/phone.png",
+      "accademy Bahr Website Contain full Responsive With DarkMode and Ai features.",
+    stack: [
+      { name: "Html 5" },
+      { name: "tailwind" },
+      { name: "JavaScript" },
+      { name: "React" },
+    ],
+    image: "/acalandm.png",
     live: "",
   },
   {
     num: "03",
+    category: "frontend",
+    title: "Foo food Fastfood Website",
+    description:
+      "Developed a website using Next.js, focused on SEO and modern design, fully responsive",
+    stack: [
+      { name: "Html 5" },
+      { name: "tailwind" },
+      { name: "JavaScript" },
+      { name: "React" },
+      { name: "Next" },
+    ],
+    image: "/foolandm.png",
+    live: "",
+  },
+  {
+    num: "04",
+    category: "frontend",
+    title: "Advanced Admin Panel",
+    description:
+      "A cutting-edge website built with Next.js, optimized for SEO and featuring a sleek, modern design. Fully responsive, this panel integrates powerful business analytics charts, user behavior tracking, and AI-driven intelligent analysis to enhance decision-making.",
+    stack: [
+      { name: "Html 5" },
+      { name: "tailwind" },
+      { name: "JavaScript" },
+      { name: "React" },
+      { name: "Next" },
+    ],
+    image: "/cmslandm.png",
+    live: "",
+  },
+  {
+    num: "05",
     category: "frontend",
     title: "Jungle Squad Game",
     description:
@@ -40,7 +77,7 @@ const projects = [
     live: "",
   },
   {
-    num: "04",
+    num: "06",
     category: "frontend",
     title: "Bad Neiber Game",
     description:
@@ -50,7 +87,7 @@ const projects = [
     live: "",
   },
   {
-    num: "05",
+    num: "07",
     category: "frontend",
     title: "Digi Style Website",
     description:
@@ -60,7 +97,7 @@ const projects = [
     live: "",
   },
   {
-    num: "06",
+    num: "08",
     category: "frontend",
     title: "Digi Style Website",
     description:
