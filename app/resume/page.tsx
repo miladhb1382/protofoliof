@@ -17,7 +17,7 @@ const about = {
   info: [
     { fieldName: "Name", fieldValue: "Milad Hamishe Bahar" },
     { fieldName: "Phone", fieldValue: "(+98) 919 686 9103" },
-    { fieldName: "Experience", fieldValue: "2+ Years" },
+    { fieldName: "Experience", fieldValue: "3+ Years" },
     { fieldName: "Email", fieldValue: "Milad.h.b1382@gmail.com" },
     { fieldName: "Nationality", fieldValue: "Iran" },
     { fieldName: "Freelance", fieldValue: "Available" },
@@ -25,23 +25,29 @@ const about = {
   ],
 };
 const experience = {
-  icon: "",
-  title: "My experience",
+  icon: "", // You can set an icon name or path here
+  title: "My Experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo invetore",
+    "Over 3 years of hands-on experience building scalable, production-ready web applications with React, Next.js, and TypeScript across SaaS, dashboard, and fintech domains.",
   items: [
     {
-      company: "BehineSazan Hooshmand",
-      position: "Front End Developer(React)",
-      duration: "May 2023-July",
+      company: "Apanco",
+      position: "Front-End Developer (React, TypeScript)",
+      duration: "Oct 2023 – Jun 2025",
+    },
+    {
+      company: "Sepehrgan",
+      position: "Front-End Developer (React, TypeScript)",
+      duration: "Jul 2022 – Jun 2023",
     },
     {
       company: "Freelance",
-      position: "Full Stack Developer(Reactjs & Nextjs)",
-      duration: "July 2023-Present",
+      position: "Front-End Developer (Next.js, Tailwind CSS)",
+      duration: "2021 – Present",
     },
   ],
 };
+
 const education = {
   icon: "",
   title: "My Education",
